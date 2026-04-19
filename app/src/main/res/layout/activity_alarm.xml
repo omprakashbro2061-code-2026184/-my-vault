@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alarm"
+        android:textSize="28sp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:layout_marginBottom="32dp"/>
+
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:id="@+id/setAlarm"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Set Alarm"
+        android:backgroundTint="#FF9500"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/cancelAlarm"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Cancel Alarm"
+        android:backgroundTint="#3A3A3C"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:layout_marginBottom="24dp"/>
+
+    <TextView
+        android:id="@+id/alarmStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp"
+        android:textColor="#FF9500"
+        android:gravity="center"/>
+
+</LinearLayout>
